@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ADIF — Cómo eliminar tu cuenta y datos (local)</title>
+  <meta name="description" content="Instrucciones para borrar tu cuenta y datos locales de ADIF desinstalando la app y eliminando copias de seguridad.">
+  <style>
+    :root {
+      --bg:#fff; --fg:#111; --muted:#555; --line:#e5e6ea; --card:#f6f7fb; --brand:#0b57d0;
+      --hlbg:#fff3b0; --hlfg:#222;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg:#0f1115; --fg:#eaeef6; --muted:#b8c0d4; --line:#23293a; --card:#151923; --brand:#6aa6ff;
+        /* Alto contraste para texto resaltado en oscuro */
+        --hlbg:#20324a; --hlfg:#eaeef6;
+      }
+    }
+    body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+    h1 { font-size: clamp(1.6rem,2.4vw,2.1rem); margin:.6rem 0; }
+    h2 { font-size: clamp(1.2rem,2vw,1.5rem); margin:1.4rem 0 .4rem; }
+    section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:1rem 1.2rem; margin:1rem 0; }
+    .meta { color:var(--muted); font-size:.95rem; }
+    ul { padding-left: 1.2rem; }
+    mark, .hl { background: var(--hlbg); color: var(--hlfg); padding: .08rem .35rem; border-radius: .25rem; box-shadow: 0 0 0 1px color-mix(in srgb, var(--hlbg), var(--line) 35%) inset; }
+    a.button { display:inline-block; padding:.65rem 1rem; border-radius:10px; border:1px solid var(--line); background:var(--bg); text-decoration:none; font-weight:700; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>ADIF — Eliminación de cuenta y datos</h1>
+    <p class="meta">Última actualización: 2025-09-08</p>
+
+    <section>
+      <h2>Resumen</h2>
+      <p>ADIF guarda la información de inventario/ventas <mark>localmente en tu dispositivo</mark>. No copiamos ese contenido a nuestros servidores. Por eso, para eliminar tu cuenta y los datos asociados basta con <mark>desinstalar la app</mark> y <mark>borrar cualquier copia/backup</mark> que hayas generado manualmente.</p>
+    </section>
+
+    <section>
+      <h2>Pasos para borrar todo</h2>
+      <ol>
+        <li><b>Opcional:</b> Ajustes del teléfono ▸ Apps ▸ <b>ADIF</b> ▸ Almacenamiento ▸ <b>Borrar datos</b> y <b>Borrar caché</b>.</li>
+        <li>Desde la misma pantalla, o desde Google Play, pulsa <b>Desinstalar</b>.</li>
+        <li>Elimina tus <b>backups o exportaciones</b> creadas por ti con un administrador de archivos:
+          <ul>
+            <li>Revisa <b>Descargas</b>, <b>Documentos</b> y posibles carpetas como <b>“ADIF”</b> en el almacenamiento interno.</li>
+            <li>Si subiste copias a la nube (por ejemplo <b>Google Drive</b> / <b>OneDrive</b>), bórralas también y vacía la papelera si aplica.</li>
+          </ul>
+        </li>
+      </ol>
+      <p>Tras desinstalar ADIF, los datos locales dejan de estar en el dispositivo y no podemos recuperarlos.</p>
+    </section>
+
+    <section>
+      <h2>¿Y mis datos en el servidor?</h2>
+      <p>ADIF no almacena tu inventario ni tus operaciones en servidores. Solo podemos conservar datos mínimos necesarios para verificación/licencia y seguridad (por ejemplo <mark>usuario, teléfono e ID de instalación</mark>). Si deseas eliminar también ese registro, envíanos una solicitud:</p>
+      <p><a class="button" href="mailto:xnovadeveloper2025@gmail.com?subject=ADIF%20-%20Eliminar%20registro%20de%20cuenta&body=Hola%2C%20quiero%20eliminar%20mi%20registro%20de%20cuenta%20de%20ADIF.%0A%0AMis%20datos%3A%0A-%20Usuario%3A%20%0A-%20Tel%C3%A9fono%20(opcional)%3A%20%0A-%20ID%20de%20instalaci%C3%B3n%20(si%20lo%20tienes)%3A%20%0A">Solicitar eliminación del registro</a></p>
+      <p class="meta">Procesaremos la solicitud en un máximo de <b>30 días</b>. Podemos conservar registros mínimos por <b>hasta 90 días</b> para fines de seguridad y prevención de fraude, según la ley.</p>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>Si necesitas ayuda para borrar copias de seguridad o confirmar la eliminación, escríbenos a <a href="mailto:xnovadeveloper2025@gmail.com">xnovadeveloper2025@gmail.com</a>.</p>
+    </section>
+
+    <p class="meta">Esta página pertenece a ADIF e informa cómo borrar la cuenta y los datos guardados localmente en el dispositivo.</p>
+  </main>
+</body>
+</html>
